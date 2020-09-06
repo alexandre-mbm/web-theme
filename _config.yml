@@ -279,3 +279,14 @@ defaults:
       comments: # true
       share: true
       related: true
+  - scope:
+      path: /
+      type: pages
+    values:
+      layout: home
+      author_profile: true
+      excerpt: O espaço virtual para "as coisas" de **um forista do Clube do Hardware**
+      header:
+         overlay_image: /assets/images/board-911640_1920.jpg
+         source: https://pixabay.com/pt/illustrations/bordo-circuitos-rastreamento-911640/
+         overlay_filter: 0.1
